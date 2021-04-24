@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042DFA2326339F8500F38B6C /* _3_2_2_ListinLink.c in Sources */ = {isa = PBXBuildFile; fileRef = 042DFA2226339F8500F38B6C /* _3_2_2_ListinLink.c */; };
+		042DFA262633A6CC00F38B6C /* _3_2_7_PolynomialADT.c in Sources */ = {isa = PBXBuildFile; fileRef = 042DFA252633A6CC00F38B6C /* _3_2_7_PolynomialADT.c */; };
+		042DFA292633ACA000F38B6C /* _3_2_7_PolynomialINLInk.c in Sources */ = {isa = PBXBuildFile; fileRef = 042DFA282633ACA000F38B6C /* _3_2_7_PolynomialINLInk.c */; };
 		048228A426337CB8008CE0E4 /* _3_2_1_ListInArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 048228A326337CB8008CE0E4 /* _3_2_1_ListInArray.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		042DFA2126339F8500F38B6C /* _3_2_2_ListinLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _3_2_2_ListinLink.h; sourceTree = "<group>"; };
+		042DFA2226339F8500F38B6C /* _3_2_2_ListinLink.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = _3_2_2_ListinLink.c; sourceTree = "<group>"; };
+		042DFA252633A6CC00F38B6C /* _3_2_7_PolynomialADT.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = _3_2_7_PolynomialADT.c; sourceTree = "<group>"; };
+		042DFA282633ACA000F38B6C /* _3_2_7_PolynomialINLInk.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = _3_2_7_PolynomialINLInk.c; sourceTree = "<group>"; };
 		0482289626337B90008CE0E4 /* _3_2_ListADT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = _3_2_ListADT; sourceTree = BUILT_PRODUCTS_DIR; };
 		048228A226337CB8008CE0E4 /* _3_2_1_ListInArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _3_2_1_ListInArray.h; sourceTree = "<group>"; };
 		048228A326337CB8008CE0E4 /* _3_2_1_ListInArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = _3_2_1_ListInArray.c; sourceTree = "<group>"; };
@@ -60,6 +67,10 @@
 			children = (
 				048228A226337CB8008CE0E4 /* _3_2_1_ListInArray.h */,
 				048228A326337CB8008CE0E4 /* _3_2_1_ListInArray.c */,
+				042DFA2126339F8500F38B6C /* _3_2_2_ListinLink.h */,
+				042DFA2226339F8500F38B6C /* _3_2_2_ListinLink.c */,
+				042DFA252633A6CC00F38B6C /* _3_2_7_PolynomialADT.c */,
+				042DFA282633ACA000F38B6C /* _3_2_7_PolynomialINLInk.c */,
 			);
 			path = _3_2_ListADT;
 			sourceTree = "<group>";
@@ -120,6 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042DFA262633A6CC00F38B6C /* _3_2_7_PolynomialADT.c in Sources */,
+				042DFA292633ACA000F38B6C /* _3_2_7_PolynomialINLInk.c in Sources */,
+				042DFA2326339F8500F38B6C /* _3_2_2_ListinLink.c in Sources */,
 				048228A426337CB8008CE0E4 /* _3_2_1_ListInArray.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
